@@ -1,0 +1,16 @@
+PODS:
+  - TestPods (0.0.15):
+    - TestPods/Inner Test (= 0.0.15)
+  - TestPods/Inner Test (0.0.15)
+
+DEPENDENCIES:
+  - TestPods (from `External/TestPods`)
+
+EXTERNAL SOURCES:
+  TestPods:
+    :path: External/TestPods
+
+SPEC CHECKSUMS:
+  TestPods: 206405568ef533d62a450b319013b1e15f45e9c4
+
+COCOAPODS: 0.35.0
